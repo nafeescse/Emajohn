@@ -1,0 +1,14 @@
+
+.cards{
+    padding: 15px;
+    height: 510px;
+    width: 300px;
+    border: 1px solid orange;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.cards img{
+    width: 286px;
+    height: 286px;
+}
