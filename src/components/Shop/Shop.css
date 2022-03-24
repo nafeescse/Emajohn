@@ -7,3 +7,24 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 15px;
 }
+.shop-cart{
+    background-color: orange;
+    position: sticky;
+}
+
+@media  screen and (max-width: 1150px) {
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    
+}
+@media  screen and (max-width: 800px) {
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+    
+}
