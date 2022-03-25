@@ -8,8 +8,7 @@
     grid-gap: 15px;
 }
 .shop-cart{
-    background-color: orange;
-    position: sticky;
+    background-color: #FFE0B3;
 }
 
 @media  screen and (max-width: 1150px) {
